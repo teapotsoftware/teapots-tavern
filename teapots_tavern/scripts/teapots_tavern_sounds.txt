@@ -1,0 +1,232 @@
+"Player.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"CompatibilityAttenuation"	"0.5"
+
+	"rndwave"
+	{
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/oof.wav"
+		"wave"	"gunfight/abul.wav"
+	}
+}
+"Player.NightVisionOn"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"gunfight/nvg_on.wav"
+}
+"Player.NightVisionOff"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"gunfight/nvg_off.wav"
+}
+"Default.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"SolidMetal.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Dirt.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"MetalGrate.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Tile.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Concrete.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"ChainLink.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Chain.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Carpet.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Sand.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Metal_SeafloorCar.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"popcan.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
+"Metal_Box.BulletImpact"
+{
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"	"gunfight/ric1.wav"
+		"wave"	"gunfight/ric2.wav"
+		"wave"	"gunfight/ric3.wav"
+		"wave"	"gunfight/ric4.wav"
+		"wave"	"gunfight/ric5.wav"
+		"wave"	"gunfight/ric6.wav"
+	}
+}
