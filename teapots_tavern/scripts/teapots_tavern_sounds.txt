@@ -1,232 +1,260 @@
-"Player.Death"
+Player.Death
 {
-	"channel"		"CHAN_VOICE"
-	"volume"		"1"
-	"CompatibilityAttenuation"	"0.5"
+	channel		CHAN_VOICE
+	volume		1
+	CompatibilityAttenuation	0.5
 
-	"rndwave"
+	rndwave
 	{
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/oof.wav"
-		"wave"	"gunfight/abul.wav"
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/oof.wav
+		wave	gunfight/abul.wav
 	}
 }
-"Player.NightVisionOn"
+Radio.GetOutOfThere
 {
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"		"PITCH_NORM"
-	"wave"		"gunfight/nvg_on.wav"
+	channel		CHAN_VOICE
+	volume		1
+	soundlevel	SNDLVL_75db
+	wave		gunfight/motboy8_radio.wav
 }
-"Player.NightVisionOff"
+Player.Kill
 {
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"		"PITCH_NORM"
-	"wave"		"gunfight/nvg_off.wav"
+	channel		CHAN_STATIC
+	volume		1
+	CompatibilityAttenuation	0.5
+	wave	gunfight/kill.wav
 }
-"Default.BulletImpact"
+Player.NightVisionOn
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	channel	CHAN_VOICE
+	volume	VOL_NORM
+	CompatibilityAttenuation	1.0
+	pitch		PITCH_NORM
+	wave		gunfight/nvg_on.wav
+}
+Player.NightVisionOff
+{
+	channel	CHAN_VOICE
+	volume	VOL_NORM
+	CompatibilityAttenuation	1.0
+	pitch		PITCH_NORM
+	wave		gunfight/nvg_off.wav
+}
+Player.FlashlightOn
+{
+	channel	CHAN_ITEM
+	volume	1
+	CompatibilityAttenuation	1.0
+	wave	gunfight/flashlight1.wav
+}
+Player.FlashlightOff
+{
+	channel	CHAN_ITEM
+	volume	1
+	CompatibilityAttenuation	1.0
+	wave	gunfight/flashlight2.wav
+}
+Default.BulletImpact
+{
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"SolidMetal.BulletImpact"
+SolidMetal.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Dirt.BulletImpact"
+Dirt.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"MetalGrate.BulletImpact"
+MetalGrate.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Tile.BulletImpact"
+Tile.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Concrete.BulletImpact"
+Concrete.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"ChainLink.BulletImpact"
+ChainLink.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Chain.BulletImpact"
+Chain.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Carpet.BulletImpact"
+Carpet.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Sand.BulletImpact"
+Sand.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Metal_SeafloorCar.BulletImpact"
+Metal_SeafloorCar.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"popcan.BulletImpact"
+popcan.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
-"Metal_Box.BulletImpact"
+Metal_Box.BulletImpact
 {
-	"CompatibilityAttenuation"	"1.0"
-	"pitch"			"PITCH_NORM"
-	"volume"			"1"
-	"rndwave"
+	CompatibilityAttenuation	1.0
+	pitch			PITCH_NORM
+	volume			1
+	rndwave
 	{
-		"wave"	"gunfight/ric1.wav"
-		"wave"	"gunfight/ric2.wav"
-		"wave"	"gunfight/ric3.wav"
-		"wave"	"gunfight/ric4.wav"
-		"wave"	"gunfight/ric5.wav"
-		"wave"	"gunfight/ric6.wav"
+		wave	gunfight/ric1.wav
+		wave	gunfight/ric2.wav
+		wave	gunfight/ric3.wav
+		wave	gunfight/ric4.wav
+		wave	gunfight/ric5.wav
+		wave	gunfight/ric6.wav
 	}
 }
