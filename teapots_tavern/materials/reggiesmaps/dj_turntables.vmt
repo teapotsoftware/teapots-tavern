@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "reggiesmaps/dj_turntables"
+	"$bumpmap" "reggiesmaps/dj_turntables_norm"
+	"$surfaceprop" "metal"
+}

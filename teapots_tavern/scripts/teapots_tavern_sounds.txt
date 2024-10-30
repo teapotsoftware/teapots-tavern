@@ -1,3 +1,8 @@
+
+
+// PLAYER SOUNDS
+
+
 Player.Death
 {
 	channel		CHAN_VOICE
@@ -19,12 +24,13 @@ Player.Death
 		wave	gunfight/abul.wav
 	}
 }
-Radio.GetOutOfThere
+Player.DamageHelmet
 {
-	channel		CHAN_VOICE
-	volume		1
-	soundlevel	SNDLVL_75db
-	wave		gunfight/motboy8_radio.wav
+	channel	CHAN_BODY
+	volume	VOL_NORM
+	CompatibilityAttenuation	1.0
+	pitch		PITCH_NORM
+	wave	gunfight/dink.wav
 }
 Player.Kill
 {
@@ -33,7 +39,7 @@ Player.Kill
 	CompatibilityAttenuation	0.5
 	wave	gunfight/kill.wav
 }
-Player.NightVisionOn
+Player.NightVisionOn__
 {
 	channel	CHAN_VOICE
 	volume	VOL_NORM
@@ -41,7 +47,7 @@ Player.NightVisionOn
 	pitch		PITCH_NORM
 	wave		gunfight/nvg_on.wav
 }
-Player.NightVisionOff
+Player.NightVisionOff__
 {
 	channel	CHAN_VOICE
 	volume	VOL_NORM
@@ -63,6 +69,47 @@ Player.FlashlightOff
 	CompatibilityAttenuation	1.0
 	wave	gunfight/flashlight2.wav
 }
+
+
+
+
+//     RADIO
+
+
+
+Event.CTWin_
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	soundlevel	SNDLVL_GUNFIRE
+	wave		gunfight/piratewars_ctwin.wav
+}
+Event.TERWin_
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	soundlevel	SNDLVL_GUNFIRE
+	wave		gunfight/piratewars_terwin.wav
+}
+Radio.GetOutOfThere
+{
+	channel		CHAN_VOICE
+	volume		1
+	soundlevel	SNDLVL_75db
+	wave		gunfight/motboy8_radio.wav
+}
+
+
+
+
+
+
+
+//    BULLET RICS
+
+
+
+
 Default.BulletImpact
 {
 	CompatibilityAttenuation	1.0
@@ -258,3 +305,245 @@ Metal_Box.BulletImpact
 		wave	gunfight/ric6.wav
 	}
 }
+
+
+//  GUN SOUNDS
+
+
+
+"Weapon_Knife.Deploy"
+{
+	"channel"		"CHAN_ITEM" // CHAN_ITEM MEANS HOPEFULLY OTHERS CANT HEAR IT
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/knife/knife_deploy1.wav"
+}
+
+"Weapon_AK47.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.52"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/ak47/ak47-1.wav"
+	
+}
+"3rd_Weapon_AK47.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.52"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/ak47/ak47-1.wav"
+	
+}
+
+
+"Weapon_DEagle.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.6"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/DEagle/deagle-1.wav"
+	
+}
+
+
+"Weapon_AUG.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.48"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/aug/aug-1.wav"
+}
+
+"Weapon_FAMAS.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.48"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/famas/famas-1.wav"
+	
+}
+"Weapon_ELITE.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_NORM"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/elite/elite-1.wav"
+}
+"Weapon_M4A1.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.52"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/m4a1/m4a1_unsil-1.wav"
+	
+}
+
+"Weapon_M4A1.Silenced"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.4"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/m4a1/m4a1-1.wav"
+}
+"Weapon_USP.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_NORM"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/usp/usp_unsil-1.wav"
+}
+
+"Weapon_USP.SilencedShot"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_IDLE"
+	"pitch"		"95,105"
+	
+	"wave"			")weapons/usp/usp1.wav"
+	
+}
+"Weapon_UMP45.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.64"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/ump45/ump45-1.wav"
+}
+"Weapon_FiveSeven.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_NORM"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/fiveseven/fiveseven-1.wav"
+}
+"Weapon_SG552.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.48"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/sg552/sg552-1.wav"
+	
+}
+"Weapon_SG550.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.40"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/sg550/sg550-1.wav"
+}
+"Weapon_P90.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.64"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/p90/p90-1.wav"
+}
+"Weapon_P228.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_NORM"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/p228/p228-1.wav"
+}
+"Weapon_MP5Navy.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	
+	"CompatibilityAttenuation"	"0.64"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/mp5navy/mp5-1.wav"
+	
+}
+"Weapon_TMP.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.6"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/tmp/tmp-1.wav"
+}
+"Weapon_MAC10.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.64"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/mac10/mac10-1.wav"
+}
+
+"Weapon_M249.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.52"
+	"pitch"		"95,105"
+
+	"wave"		")weapons/m249/m249-1.wav"
+}
+"Weapon_Galil.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.48"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/galil/galil-1.wav"
+	
+}
+"Weapon_Glock.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_NORM"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/glock/glock18-1.wav"
+}
+"Weapon_G3SG1.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.40"
+	"pitch"		"95,105"
+
+	"wave"			")weapons/g3sg1/g3sg1-1.wav"
+}
+

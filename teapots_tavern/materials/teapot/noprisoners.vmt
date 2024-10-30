@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "teapot/noprisoners"
+	$alphatest 1
+}
