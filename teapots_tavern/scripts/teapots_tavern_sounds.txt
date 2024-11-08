@@ -11,27 +11,24 @@ Player.Death
 
 	rndwave
 	{
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/oof.wav
-		wave	gunfight/abul.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	ambient/voices/citizen_beaten5.wav
+		wave	gunfight/wilhelm.wav
 	}
 }
-Player.DamageHelmet
-{
-	channel	CHAN_BODY
-	volume	VOL_NORM
-	CompatibilityAttenuation	1.0
-	pitch		PITCH_NORM
-	wave	gunfight/dink.wav
-}
+
 Player.Kill
 {
 	channel		CHAN_STATIC
@@ -39,37 +36,6 @@ Player.Kill
 	CompatibilityAttenuation	0.5
 	wave	gunfight/kill.wav
 }
-Player.NightVisionOn__
-{
-	channel	CHAN_VOICE
-	volume	VOL_NORM
-	CompatibilityAttenuation	1.0
-	pitch		PITCH_NORM
-	wave		gunfight/nvg_on.wav
-}
-Player.NightVisionOff__
-{
-	channel	CHAN_VOICE
-	volume	VOL_NORM
-	CompatibilityAttenuation	1.0
-	pitch		PITCH_NORM
-	wave		gunfight/nvg_off.wav
-}
-Player.FlashlightOn
-{
-	channel	CHAN_ITEM
-	volume	1
-	CompatibilityAttenuation	1.0
-	wave	gunfight/flashlight1.wav
-}
-Player.FlashlightOff
-{
-	channel	CHAN_ITEM
-	volume	1
-	CompatibilityAttenuation	1.0
-	wave	gunfight/flashlight2.wav
-}
-
 
 
 
@@ -77,20 +43,6 @@ Player.FlashlightOff
 
 
 
-Event.CTWin_
-{
-	channel	CHAN_STATIC
-	volume	1.0
-	soundlevel	SNDLVL_GUNFIRE
-	wave		gunfight/piratewars_ctwin.wav
-}
-Event.TERWin_
-{
-	channel	CHAN_STATIC
-	volume	1.0
-	soundlevel	SNDLVL_GUNFIRE
-	wave		gunfight/piratewars_terwin.wav
-}
 Radio.GetOutOfThere
 {
 	channel		CHAN_VOICE
@@ -101,12 +53,7 @@ Radio.GetOutOfThere
 
 
 
-
-
-
-
 //    BULLET RICS
-
 
 
 
@@ -307,15 +254,14 @@ Metal_Box.BulletImpact
 }
 
 
-//  GUN SOUNDS
-
+//  WEAPON SOUNDS
 
 
 "Weapon_Knife.Deploy"
 {
-	"channel"		"CHAN_ITEM" // CHAN_ITEM MEANS HOPEFULLY OTHERS CANT HEAR IT
-	"volume"		"1.0"
-	"CompatibilityAttenuation"	"1.0"
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.5"
+	"CompatibilityAttenuation"	"1.5"
 	"pitch"			"97,103"
 
 	"wave"			"weapons/knife/knife_deploy1.wav"

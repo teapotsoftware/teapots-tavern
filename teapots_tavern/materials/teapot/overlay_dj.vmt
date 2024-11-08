@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture teapot/overlay_dj
+	$basetexturetransform "center .5 .5 scale 2 8 rotate 0 translate 0 -0.5"
+	$translucent 1
+	$ignorez 1
+
+	// this just masks out the part we want to see
+	// otherwise the texture tiles all over your screen due
+	//    to the transform scaling (this saves filesize)
+	$detail teapot/overlay_dj_detail
+	$detailscale 1
+	$detailblendfactor 1
+	$detailblendmode 9
+}

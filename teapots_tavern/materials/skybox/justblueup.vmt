@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture skybox/justblue_cloud
+	$nofog 1
+	$ignorez 1
+}
