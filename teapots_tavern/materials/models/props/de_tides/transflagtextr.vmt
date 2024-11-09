@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture models\props\de_tides\transflagtextr
+	$nocull 1
+	$surfaceprop no_decal
+}

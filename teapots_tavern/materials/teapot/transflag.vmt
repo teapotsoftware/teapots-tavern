@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+	$basetexture teapot/transflag
+	$surfaceprop no_decal
+}
