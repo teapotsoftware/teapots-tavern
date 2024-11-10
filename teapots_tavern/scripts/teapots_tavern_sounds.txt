@@ -272,7 +272,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.52"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/ak47/ak47-1.wav"
 	
@@ -282,7 +282,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.52"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/ak47/ak47-1.wav"
 	
@@ -294,7 +294,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.6"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/DEagle/deagle-1.wav"
 	
@@ -306,7 +306,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.48"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/aug/aug-1.wav"
 }
@@ -316,7 +316,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.48"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/famas/famas-1.wav"
 	
@@ -326,7 +326,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"ATTN_NORM"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/elite/elite-1.wav"
 }
@@ -335,7 +335,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.52"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/m4a1/m4a1_unsil-1.wav"
 	
@@ -346,7 +346,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"1.4"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/m4a1/m4a1-1.wav"
 }
@@ -355,7 +355,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"ATTN_NORM"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/usp/usp_unsil-1.wav"
 }
@@ -365,7 +365,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_ITEM"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"ATTN_IDLE"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 	
 	"wave"			")weapons/usp/usp1.wav"
 	
@@ -375,7 +375,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.64"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/ump45/ump45-1.wav"
 }
@@ -384,7 +384,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"ATTN_NORM"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/fiveseven/fiveseven-1.wav"
 }
@@ -393,7 +393,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.48"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/sg552/sg552-1.wav"
 	
@@ -403,7 +403,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.40"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/sg550/sg550-1.wav"
 }
@@ -412,7 +412,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.64"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/p90/p90-1.wav"
 }
@@ -421,7 +421,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"ATTN_NORM"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/p228/p228-1.wav"
 }
@@ -431,7 +431,7 @@ Metal_Box.BulletImpact
 	"volume"		"1.0"
 	
 	"CompatibilityAttenuation"	"0.64"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/mp5navy/mp5-1.wav"
 	
@@ -441,7 +441,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"1.6"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/tmp/tmp-1.wav"
 }
@@ -450,7 +450,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.64"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/mac10/mac10-1.wav"
 }
@@ -460,7 +460,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.52"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"		")weapons/m249/m249-1.wav"
 }
@@ -469,7 +469,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.48"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/galil/galil-1.wav"
 	
@@ -479,7 +479,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"ATTN_NORM"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/glock/glock18-1.wav"
 }
@@ -488,7 +488,7 @@ Metal_Box.BulletImpact
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"CompatibilityAttenuation"	"0.40"
-	"pitch"		"97,103"
+	"pitch"		PITCH_NORM
 
 	"wave"			")weapons/g3sg1/g3sg1-1.wav"
 }
