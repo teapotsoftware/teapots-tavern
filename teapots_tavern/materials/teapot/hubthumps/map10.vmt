@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+	$basetexture teapot/hubthumps/map10
+	$surfaceprop glass
+}
