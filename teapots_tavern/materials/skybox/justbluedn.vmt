@@ -1,6 +1,0 @@
-UnlitGeneric
-{
-	$basetexture skybox/justblue_earth
-	$nofog 1
-	$ignorez 1
-}

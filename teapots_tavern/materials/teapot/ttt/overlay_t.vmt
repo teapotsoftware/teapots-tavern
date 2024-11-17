@@ -1,6 +1,0 @@
-UnlitGeneric
-{
-	"$basetexture" "teapot/ttt/overlay_t"
-	$ignorez 1
-	$translucent 1
-}
