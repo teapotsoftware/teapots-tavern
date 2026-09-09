@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture t4ttt/vgui/icon_martyr
+	$vertexcolor 1
+	$vertexalpha 1
+	$translucent 1
+}
